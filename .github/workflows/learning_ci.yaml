@@ -1,0 +1,15 @@
+name: Testing CI
+on:
+  push: 
+    branches: ["# branch here #"]
+jobs:
+  checking-env:
+    runs-on: # runner here #
+    steps:
+      - name: Git Version
+        run: git --version
+      - name: Docker Version
+        run: # command here #
+      - uses: # action url here #
+      - name: List files
+        run: # command here #
